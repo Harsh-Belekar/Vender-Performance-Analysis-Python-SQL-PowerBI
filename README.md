@@ -143,27 +143,29 @@ This project aims to:
 
 📦 Vendor_Performance_Analysis
 │
-├── Vendor_Performance_Analysis.pdf     # Project report containing 2 dashboards
-├── Vendor_Performance_Report.pdf       # Final Project Report
 ├── README.md                           # Project documentation
 │
+├── docs/
+│   └── Vendor_Performance_Report.pdf     # Final Project Report 
+│
 ├── data/
-│ └── vendor_sales_summary.csv          # Final cleaned dataset used in analysis & Power BI
+│   └── vendor_sales_summary.csv          # Final cleaned dataset used in analysis & Power BI
 │
 ├── scripts/
-│ ├── ingestion_db.py                   # Data ingestion and database creation
-│ └── get_vendor_summary.py             # SQL joins and vendor summary generation
+│   ├── ingestion_db.py                   # Data ingestion and database creation
+│   └── get_vendor_summary.py             # SQL joins and vendor summary generation
 │
 ├── notebook/
-│ ├── Exploratory Data Analysis.ipynb   # Initial data exploration
-│ └── Vendor Performance Analysis.ipynb # Main analytical notebook
+│   ├── Exploratory Data Analysis.ipynb   # Initial data exploration
+│   └── Vendor Performance Analysis.ipynb # Main analytical notebook
 │
 ├── dashboard/
-│ └── Vendor_Performance_Analysis.pbix  # Power BI dashboard file
+│   ├── Vendor_Performance_Analysis.pdf     # Project doc containing 2 dashboards
+│   └── Vendor_Performance_Analysis.pbix    # Power BI dashboard file
 │
 └── images/
-├── Executive_summary.png               # Dashboard 1 preview
-└── Cost_Efficiency_and_Inventory.png   # Dashboard 2 preview
+    ├── Executive_summary.png               # Dashboard 1 preview
+    └── Cost_Efficiency_and_Inventory.png   # Dashboard 2 preview
 ```
 
 ---
